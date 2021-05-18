@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-binance = "*"
+ta-lib = {path = "./TA_Lib-0.4.19-cp39-cp39-win_amd64.whl"}
+numpy = "*"
+websocket-client = "*"
+django = "*"
+djangorestframework = "*"
+
+[dev-packages]
+black = "*"
+
+[requires]
+python_version = "3.9"
+
+[pipenv]
+allow_prereleases = true
